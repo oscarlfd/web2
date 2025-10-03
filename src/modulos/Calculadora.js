@@ -1,5 +1,5 @@
 import {useState} from "react";
-import Botom from "./Boton";
+import Boton from "./Boton";
 
 
 const Contador = () =>{
@@ -15,16 +15,16 @@ return(
         <label>Contador:{contador}</label>
         <br />
         <button onClick={Aumentar}>Aumentar</button>
-        <Botom onClick={() => imputNumber(0)}> 0 </Botom>
-        <Botom onClick={() => imputNumber(1)}> 1 </Botom>
-        <Botom onClick={() => imputNumber(2)}> 2 </Botom>
-        <Botom onClick={() => imputNumber(3)}> 3 </Botom>
-        <Botom onClick={() => imputNumber(4)}> 4 </Botom>
-        <Botom onClick={() => imputNumber(5)}> 5 </Botom>
-        <Botom onClick={() => imputNumber(6)}> 6 </Botom>
-        <Botom onClick={() => imputNumber(7)}> 7 </Botom>
-        <Botom onClick={() => imputNumber(8)}> 8 </Botom>
-        <Botom onClick={() => imputNumber(9)}> 9 </Botom>
+        <Boton onClick={() => imputNumber(0)}> 0 </Boton>
+        <Boton onClick={() => imputNumber(1)}> 1 </Boton>
+        <Boton onClick={() => imputNumber(2)}> 2 </Boton>
+        <Boton onClick={() => imputNumber(3)}> 3 </Boton>
+        <Boton onClick={() => imputNumber(4)}> 4 </Boton>
+        <Boton onClick={() => imputNumber(5)}> 5 </Boton>
+        <Boton onClick={() => imputNumber(6)}> 6 </Boton>
+        <Boton onClick={() => imputNumber(7)}> 7 </Boton>
+        <Boton onClick={() => imputNumber(8)}> 8 </Boton>
+        <Boton onClick={() => imputNumber(9)}> 9 </Boton>
     </div>
 );
 

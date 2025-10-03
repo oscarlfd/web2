@@ -1,10 +1,10 @@
 
+function Boton({ onClick, children, ...props }) {
+    return (
+        <button onClick={onClick} {...props}>
+            {children}
+        </button>
+    );
+}
 
-const button = ({onclick, children, ...props})=>(
-< button onclick = {onclick}{...props}>
-{children}
-</button>
-);
-
-
-export default button;
+export default Boton;

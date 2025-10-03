@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import './modulos/Calculadora.js';
-import  './modulos/Boton.js';
+import Contador from './modulos/Calculadora';
+import Boton from './modulos/Boton';
 
 
 function App() {
@@ -20,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+        <Contador />
       </header>
     </div>
   );
