@@ -1,5 +1,5 @@
 // src/modulos/App.jsx
-import Frontend from "./Frontend";
+import Frontend from "./modulos/Frontend";
 
 export default function App() {
   return (

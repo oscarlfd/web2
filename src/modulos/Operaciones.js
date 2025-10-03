@@ -1,4 +1,4 @@
-// src/modulos/Operaciones.js
+
 export function sumar(a, b) {
   return a + b;
 }
